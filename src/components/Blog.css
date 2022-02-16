@@ -1,0 +1,29 @@
+.blog-content{
+    padding: 24px 0;
+}
+
+.blog-content .blog-container{
+    display: flex;
+    padding: 24px 0;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.blog-container .blog-item{
+    max-width: calc(100% / 3);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-item img{
+    width: 100%;
+}
+
+.blog-item .blog-body{
+    display: flex;
+    padding-top: 8px;
+    gap: 4px;
+    flex-direction: column;
+}

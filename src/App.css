@@ -1,0 +1,285 @@
+*{
+  margin: 0;
+}
+
+body{
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #f6f5f3;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.split{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar, .toolbar, .hero{
+  margin-bottom: 32px;
+  padding: 16px 24px;
+}
+
+.leftside .cartfavorite{
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.leftside .cartfavorite img{
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+}
+
+.searchbox{
+  display: flex;
+  align-items: center;
+}
+
+.searchbox input{
+  border: none;
+  margin-left: 8px;
+}
+
+.searchbox input:focus{
+  border: none;
+  outline: none;
+}
+
+.menu{
+  width: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.menu > span{
+  height: 2px;
+  background-color: black;
+}
+
+.toolbar div:first-child{
+  display: flex;
+  gap:8px;
+}
+
+.hero{
+  align-items: center;
+}
+
+.hero h1{
+  /* width: 60%; */
+  font-size: 48px;
+  line-height: 1.28;
+  margin-bottom: 24px;
+}
+.hero p{
+  line-height: 1.24;
+  margin-bottom: 24px;
+}
+
+.hero div:first-child{
+  width: 49%;
+}
+
+.hero > div a{
+  display: inline-block;
+  padding: 16px 24px;
+  background-color: #f8931f;
+  text-decoration: none;
+  color: white;
+}
+
+.hero > div a:last-child{
+  background: none;
+  border: 2px solid #f8931f;
+  color: #f8931f;
+  margin-left: 16px;
+}
+
+.hero > div img{
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel{
+  gap: 16px;
+  display: flex;
+  max-width: 100%;
+  padding: 0 16px;
+  margin-bottom: 32px;
+}
+
+.carousel .caro-item{
+  width: calc(100% / 4 );
+}
+
+.caro-item img{
+  width: 100%;
+  max-height: 220px;
+}
+
+.popular h3, .best-seller h3{
+  margin-bottom: 16px;
+}
+
+.popular > div, .best-seller > div {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+}
+
+.popular > div > div, 
+.best-seller > div > div{
+  padding: 8px;
+  width: calc(100% / 4);
+}
+
+.popular > div > div img, 
+.best-seller > div > div img{
+  width: 100%;
+}
+
+.product-item h6{
+  color: #949494;
+  margin-bottom: 8px;
+}
+
+.product-item h3,
+.product-item span{
+  margin-bottom: 8px;
+}
+
+.product-item .item-number{
+  margin-top: 8px;
+}
+
+.special{
+  width: 100%;
+  display: flex;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+
+.special > div {
+  color: #fff;
+  display: flex;
+  width: calc(100% / 3);
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 96px 32px;
+  position: relative;
+  overflow: hidden;
+}
+
+.special > div div:first-child{
+  position: relative;
+  z-index: 50;
+}
+
+.special > div .foodbg{
+  position: absolute;
+  right: -32px;
+  bottom: -32px;
+}
+
+.special > div .foodbg.last{
+  right: -64px;
+  bottom: -64px;
+}
+
+.foodbg img{
+  height: 176px;
+}
+
+.special > div p {
+  font-size: 12px;
+}
+
+.special > div:first-child{
+  background-color: #8cc63e;
+}
+
+.special > div {
+  background-color: #f8931f;
+}
+
+.special > div:last-child{
+  background-color: #273a98;
+}
+
+.product-item > div:first-child{
+  height: 60%;
+}
+
+.product-item 
+
+.product-item .item-number{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-number input{
+  width: 60px;
+}
+
+.popular-nav > div,
+.best-seller-nav > div,
+.blog-nav > div{
+  display: flex;
+  gap: 16px;
+}
+
+.popular-nav  span,
+.best-seller-nav span,
+.blog-nav span {
+  width: 32px;
+  height: 32px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8cc63e;
+  border-radius: 50%;
+}
+
+.popular-nav button, 
+.best-seller-nav button,
+.blog-nav button{
+  border: none;
+  color: #fff;
+  padding: 10px 24px;
+  background-color: #009245;
+
+}
+
+.deadline {
+  width: 100%;
+  display: flex;
+  margin: 32px auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+.deadline > div{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.deadline > div > div {
+  padding: 32px;
+}
+
+.deadline > div > div h2{
+  font-size: 32px;
+  
+}
